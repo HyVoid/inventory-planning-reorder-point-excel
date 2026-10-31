@@ -41,16 +41,17 @@ export default function HeaderNav({
       className="sticky top-0 z-50 h-[56px] w-full bg-white border-b border-[color:var(--nav-border)] shadow-[color:var(--shadow-nav)] flex items-center justify-between px-10"
     >
       {/* Brand Identity */}
-      <div className="flex items-center space-x-2 select-none shrink-0">
-        <div className="w-8 h-8 rounded-lg bg-[color:var(--color-primary)] flex items-center justify-center text-white font-sans font-bold text-xs shrink-0 shadow-sm">
-          DA
+      <div className="flex items-center space-x-3 select-none shrink-0">
+        <div className="w-8 h-8 rounded-lg bg-[color:var(--brand,#051C2C)] flex items-center justify-center text-white font-sans font-bold text-xs shrink-0 shadow-sm tracking-wide">
+          TW
         </div>
-        <div className="flex flex-col">
-          <span className="text-sm font-bold tracking-tight text-[color:var(--color-primary)] serif-heading leading-tight" style={{ letterSpacing: '-0.01em' }}>
-            Demand-Adaptive Inventory Planning &amp; Purchasing Decision
+        <div className="flex items-center space-x-2.5">
+          <span className="text-base font-bold tracking-tight text-[color:var(--brand,#051C2C)] serif-heading leading-none" style={{ letterSpacing: '-0.02em' }}>
+            Theseus Workshop
           </span>
-          <span className="text-[9px] font-mono font-bold text-[color:var(--color-accent)] uppercase tracking-wider leading-none">
-            Excel Toolkit Console
+          <span className="text-gray-300 font-light select-none">/</span>
+          <span className="text-xs font-mono font-medium text-[color:var(--muted,#666)] bg-gray-50 border border-gray-200/80 px-2 py-0.5 rounded leading-none">
+            inventory-planning-reorder-point-excel
           </span>
         </div>
       </div>

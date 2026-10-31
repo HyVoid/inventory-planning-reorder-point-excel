@@ -1,22 +1,26 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
-
 :root {
-  /* ── Core Brand Palette ── */
-  --color-primary: #051C2C;
-  --color-accent: #2251FF;
-  --color-bg: #F5F5F2;
-  --color-muted: #888888;
-  --color-body-text: #051C2C; /* Match brand color */
+  /* ── Specification CSS Variables ── */
+  --bg: #F5F5F2;
+  --surface: #FFFFFF;
+  --brand: #051C2C;
+  --accent: #2251FF;
+  --muted: #888888;
+  --ok: #00C853;
+  --danger: #D32F2F;
+  --input-bg: #FFFDE7;
 
-  /* ── Semantic Colors (Actions & Anomaly only) ── */
-  --color-positive: #00C853;
-  --color-negative: #D32F2F;
-
-  /* ── Surface Styles ── */
-  --color-surface: #FFFFFF;
-  --color-input-bg: #FFFDE7;
+  /* ── Aliases & Secondary Tokens ── */
+  --color-primary: var(--brand);
+  --color-accent: var(--accent);
+  --color-bg: var(--bg);
+  --color-muted: var(--muted);
+  --color-body-text: var(--brand);
+  --color-positive: var(--ok);
+  --color-negative: var(--danger);
+  --color-surface: var(--surface);
+  --color-input-bg: var(--input-bg);
   --color-border: #E5E5E0;
 
   /* ── Light Navigation Surface ── */

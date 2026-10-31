@@ -1,3 +1,5 @@
+import '@fontsource/eb-garamond/500.css';
+import '@fontsource/eb-garamond/600.css';
 import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import App from './App.tsx';

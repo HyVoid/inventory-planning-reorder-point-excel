@@ -69,10 +69,10 @@ export default function Dashboard({ skus, metrics, setActiveTab }: DashboardProp
       {/* Page Header */}
       <div className="flex flex-col space-y-1.5">
         <h2 className="font-serif text-[var(--text-page-title)] font-bold tracking-[var(--tracking-display)] text-[color:var(--color-primary)]">
-          Inventory Planning Control Tower
+          Demand-Adaptive Inventory Planning &amp; Purchasing Decision
         </h2>
         <p className="text-gray-500 text-sm max-w-2xl font-light">
-          Real-time dynamic analysis of DTC supply chain safety stocks, reorder points, and capital exposure. All calculations are reactively updated below.
+          Theseus Workshop · inventory-planning-reorder-point-excel: Real-time dynamic analysis of supply chain safety stocks, reorder points, and capital exposure.
         </p>
       </div>
 

@@ -197,6 +197,11 @@ export default function App() {
         )}
 
       </main>
+
+      {/* Footer Statement */}
+      <footer className="w-full py-6 text-center text-xs text-gray-400 font-mono border-t border-[color:var(--color-border)] bg-white/60 mt-8">
+        All data in this tool is stored in your browser&apos;s localStorage. The page itself does not retain any user data.
+      </footer>
     </div>
   );
 }
