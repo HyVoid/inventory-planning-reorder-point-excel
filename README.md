@@ -35,6 +35,14 @@ Instead of manually cross-referencing fragmented 3PL warehouse reports, in-trans
 | **Open-to-Buy (OTB) Cash Flow & Working Capital Exposure** | Submitting Purchase Orders based purely on unit quantities without knowing the exact cash commitment required to fund the restock run. | Multiplies suggested PO quantities by **Unit Landed COGS** to output real-time **Cash Flow Exposure ($)** and prioritize POs when capital is tight. |
 | **Actionable Purchase Order (PO) Priority Triage** | Auditing 500+ SKUs line-by-line every Monday morning to figure out which suppliers need an immediate PO vs. which SKUs are safely stocked. | Generates an automated **SKU Action Status (`ORDER NOW`, `WATCH`, `HEALTHY`, `OVERSTOCKED`)** with exact recommended PO order quantities. |
 
+## Spreadsheet Preview
+
+Want to take a closer look before downloading? You can preview the spreadsheet in Google Sheets to explore its layout, structure, and calculation logic.
+
+**[View Spreadsheet Preview on Google Sheets](https://docs.google.com/spreadsheets/d/10EuGnLT5cuil4Muqi-c34Cno8B1Pcb4O/edit?usp=sharing&ouid=108770714531989318327&rtpof=true&sd=true)**
+
+> **Note on Compatibility:** The Google Sheets preview may display occasional `#NAME?` errors or formula warnings due to differences between Google Sheets and Microsoft Excel formula compatibility. These are preview-only compatibility issues and do not affect the functionality of the original Excel workbook. For the intended formula behavior and full functionality, please download and open the `.xlsx` file in Microsoft Excel.
+
 ---
 
 ## Quick Start Tutorial: How to Automate Your Restock & Reorder Point Decisions
